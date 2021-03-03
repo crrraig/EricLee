@@ -59,6 +59,8 @@ font-weight: 100;
 font-weight: 100;
 text-align: center
 }
+
+
 @media screen and (max-width: 600px) {
   #navbar-header {
     visibility: hidden;
@@ -67,6 +69,11 @@ text-align: center
     margin: 10px auto 5px 20px;
     width: 28%;
     display: none;
-  }
+
+
 }
+.text{
+  visibility: hidden;
+}
+
 

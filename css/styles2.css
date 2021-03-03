@@ -92,7 +92,7 @@ body {
   display: inline-block;
   padding-bottom: 500px;
   padding-top: 100px;
-font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Raleway', sans-serif;
+font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'work sans', sans-serif;
 font-weight: 100;
   
 }
@@ -110,14 +110,14 @@ font-weight: 100;
 }
 
 .description{
-  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Raleway',  sans-serif;
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'work sans',  sans-serif;
 font-weight: 100;
 
 }
 
 }
 #title{
-  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Raleway',  sans-serif ;
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'work sans',  sans-serif ;
 font-weight: 100;
 }
 
@@ -138,12 +138,12 @@ u{
   font-size: 15px;
 }
 h1{
-   font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Raleway',  sans-serif;
+   font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'work sans',  sans-serif;
 font-weight: 100;
 }
 
 p{ 
-   font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Raleway',  sans-serif;
+   font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'work sans',  sans-serif;
 font-weight: 100;
 
 
@@ -151,7 +151,7 @@ font-weight: 100;
 
 }
 h6{
-  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Raleway',  sans-serif;
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'work sans',  sans-serif;
 font-weight: 100;
 }
 
