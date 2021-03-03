@@ -1,0 +1,319 @@
+@media(hover:hover) and (pointer:fine)
+
+
+img{
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar{
+  max-width: 1440px;
+  margin: auto;
+}
+
+html, body {
+   overflow-x: hidden;
+
+ }
+
+body {
+   width:100%;
+ }
+
+
+
+
+
+.row{
+  padding-left: 2px;
+  padding-right: 2px;
+
+}
+.column{
+  width: 100%;
+
+}
+
+
+.navbar-brand
+    {
+      font-size: 60px ! important;
+    }
+   
+body{
+  padding-top: 300px;
+  padding-left: 20px;
+
+}
+
+p{ 
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica, 'Roboto', sans-serif;
+font-weight: 100;
+
+}
+h1{
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica, 'Roboto', sans-serif;
+font-weight: 100;
+}
+
+
+img{
+  border-radius: 100%;
+
+}
+
+
+
+
+
+footer{
+width:100%;
+}
+.footer{
+width:100%;
+text-align: center;
+}
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+body { 
+  max-width: 1440px; 
+  margin: 0 auto !important; 
+  float: none !important; 
+  background: #f9f9f9;
+  font-size: 5px;
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica, 'Roboto', sans-serif;
+font-weight: 100;
+padding-top: 
+
+
+}
+
+.main-title{
+  color: #2d2d2d;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.7em 0;
+
+}
+
+.container{
+  padding: 3em 0;
+  float: left;
+  width: 50%;
+
+
+}
+@media screen and (max-width: 640px){
+  .container{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+@media screen and (min-width: 900px){
+  .container{
+    width: 30.33333%;
+    text-align: center;
+    padding-left: 50
+  }
+
+
+}
+
+.container .title{
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+  
+}
+
+.content  {
+  position: relative;
+  width: 100%;
+  max-width: 200px;
+  padding-left: 50px;
+  margin: 10px;
+  overflow: ;
+
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.4);
+  position: absolute;
+  border-radius: 50%;
+  left: 50px;
+  top: 0px;
+  bottom: 0px;
+  right: -50px;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+  
+}
+
+.content-image{
+  border-radius:  50%;
+  background-image: url(images/spacehold.jpg);
+
+}
+
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 6em;
+  padding-right: 0em;
+  width: 100%;
+  top: 80%;
+  left: 80%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.7em;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
+
+.fadeIn-top{
+  top: 20%;
+}
+
+.fadeIn-left{
+  left: 20%;
+}
+
+.fadeIn-right{
+  left: 80%;
+}
+
+    @media screen and (max-width: 600px) {
+  #navbar-header {
+    
+    display: none;
+    
+    }
+  .content-image{
+      height: 100px;
+      width: 100px;
+    }
+    .content{
+      padding-left: 50px
+    }
+    .container{
+      padding-left: 13vw !important;
+    }
+    .column{
+      padding-left: 50px;
+      padding-right: 50px;
+      margin: auto;
+
+    }
+
+    html, body {
+   overflow-x: hidden;
+ }
+body {
+   width:100%;
+ }}
+
+
+@media screen and (max-width: 800px) {
+  #navbar-header {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+    
+    }
+  .content-image{
+      height: 200px;
+      width: 200px;
+    }
+    .column{
+      padding-left: 7px;
+    }
+    @media screen and (min-width: 320px) {
+  #navbar-header {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+    
+    }
+  .content-image{
+      height: 200px;
+      width: 200px;
+    }
+    .column{
+      padding-left: 1px;
+    }
+html, body {
+   overflow-x: hidden;
+ }
+body {
+   width:100%;
+ }}
+
+
+@media (hover: hover) {
+  button:hover {
+    border: 3px solid green; 
+}
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+}
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
