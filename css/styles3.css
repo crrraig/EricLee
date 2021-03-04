@@ -12,6 +12,10 @@ img{
 .navbar{
   max-width: 1440px !important;
   margin: auto;
+
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;
+font-weight: 100;
+}
 }
 }
 html, body {
@@ -24,6 +28,10 @@ body {
  max-width: 1440px !important; 
   margin: 0 auto !important; 
   float: none !important; 
+
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;
+font-weight: 100;
+}
  }
 #title{
   text-transform: uppercase;
@@ -148,8 +156,14 @@ font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica
 font-weight: 100;
 
 }
-
-
+.description{
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica, 'Roboto', sans-serif;
+font-weight: 100;
+}
+#title{
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;
+font-weight: 100;
+}
 
 footer{
 width:100%;
