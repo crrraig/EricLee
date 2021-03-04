@@ -35,7 +35,7 @@ font-weight: 100;
  }
 
 
- .information{
+ p.information{
     font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;
 font-weight: 100;
  }
@@ -81,6 +81,7 @@ font-weight: 100;
   z-index: 1;
   overflow: scroll;
   max-height: 600px;
+
 }
 
 .dropdown-content a {
@@ -126,6 +127,7 @@ hr {
   margin-bottom: 0.35em !important;
   border-width: 1px;
   overflow: hidden;
+
   
 
 
@@ -141,6 +143,8 @@ hr {
 body{max-width: 1440px!important;
   margin:auto;
   padding-top: 250px;
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;
+font-weight: 100;
 
   
 }
