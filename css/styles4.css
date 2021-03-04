@@ -2,6 +2,10 @@
  max-width: 1440px;
  margin: auto;
 }
+.nav-item{
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;
+font-weight: 100;
+}
 .navbar-brand{
 font-size: 60px ! important;
  }
@@ -46,7 +50,10 @@ border-radius: 100%;
 	text-align: center;
 }
 
-
+a{
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;
+font-weight: 100;
+}
 
 
 h3{text-decoration: none;

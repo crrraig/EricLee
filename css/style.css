@@ -12,7 +12,8 @@ img{
  }
 
 body{padding-bottom: 80px;
-
+font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;
+font-weight: 100;
 }
 
 footer{
