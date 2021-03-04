@@ -33,6 +33,12 @@ body {
 font-weight: 100;
 }
  }
+
+
+ .information{
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;
+font-weight: 100;
+ }
 #title{
   text-transform: uppercase;
 }
@@ -137,6 +143,14 @@ body{max-width: 1440px!important;
   padding-top: 250px;
 
   
+}
+nav-link{
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;
+font-weight: 100;
+}
+a{
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;
+font-weight: 100;
 }
 
 h1{
