@@ -20,7 +20,7 @@
 .navbar{
   max-width: 1440px;
   margin: auto;
-  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Work Sans', sans-serif;
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Work Sans', sans-serif ,!important;
 font-weight: 100;
 }
 }
@@ -31,6 +31,10 @@ html, body {
  }
  a{
   font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Work Sans', sans-serif;
+font-weight: 100;
+ }
+ .navbar-header{
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Work Sans', sans-serif, !important;
 font-weight: 100;
  }
 
@@ -51,7 +55,9 @@ font-weight: 100;
 .navbar-brand
     {
       font-size: 60px ! important;
-      font-weight: 100 !important;
+      
+      font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Work Sans', sans-serif;
+font-weight: 100;
 
 }
 
