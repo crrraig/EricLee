@@ -1,17 +1,18 @@
+/* work-sans-200 - latin */
 @font-face {
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 200;
-  src: url('../fonts/work-sans-v9-latin-100.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/work-sans-v9-latin-200.eot'); /* IE9 Compat Modes */
   src: local(''),
-       url('../fonts/work-sans-v9-latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/work-sans-v9-latin-100.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/work-sans-v9-latin-100.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/work-sans-v9-latin-100.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/work-sans-v9-latin-100.svg#WorkSans') format('svg'); /* Legacy iOS */
+       url('../fonts/work-sans-v9-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/work-sans-v9-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/work-sans-v9-latin-200.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/work-sans-v9-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/work-sans-v9-latin-200.svg#WorkSans') format('svg'); /* Legacy iOS */
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
 
 .dropdown-content:hover a{
   color: black

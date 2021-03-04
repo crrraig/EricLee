@@ -1,9 +1,4 @@
-    @font-face {
-    font-family: 'Geometria-Thin';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Geometria-Thin'), url('Geometria-Thin.woff') format('woff');
-    }
+
 
 img{
  background-repeat: no-repeat;
@@ -103,7 +98,7 @@ body {
 
 
 .description{
-  font-family:'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica,'Geometria-Thin',  sans-serif ; font-weight: 100;
+  font-family:'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica,'Roboto',  sans-serif ; font-weight: 100;
 
 
 
@@ -137,19 +132,19 @@ body{max-width: 1440px!important;
 }
 
 h1{
-  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica, 'Geometria-Thin', sans-serif;
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica, 'Roboto', sans-serif;
 font-weight: 100;
 
 }
 
 p{ 
-font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica, 'Geometria-Thin', sans-serif;
+font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica, 'Roboto', sans-serif;
 font-weight: 100;
 
 }
 
 h6{
-font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica, 'Geometria-Thin', sans-serif;
+font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica, 'Roboto', sans-serif;
 font-weight: 100;
 
 }
