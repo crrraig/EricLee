@@ -8,7 +8,8 @@ img{
  .row{
   padding-left: ;
   padding-top: 10px;
-  font-family:  
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;
+font-weight: 100;
  }
 
 body{padding-bottom: 80px;
@@ -18,6 +19,8 @@ font-weight: 100;
 
 footer{
   margin-top: 300px;
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;
+font-weight: 100;
 }
 .container {
   position: relative;
