@@ -15,6 +15,7 @@ font-weight: 100;
 html, body {
    overflow-x: hidden;
 
+
  }
 
 body {
@@ -45,14 +46,18 @@ font-weight: 100;
 
 
 .row{
-  padding-left: 2px;
-  padding-right: 2px;
+  padding-left: 1px;
+  padding-right: 1px;
 
 
 }
+
+
+
 .column{
   width: 100%;
   justify-content: center;
+  
 
 }
 
@@ -62,6 +67,7 @@ font-weight: 100;
 body{
   padding-top: 300px;
   padding-left: 20px;
+
 
 }
 
@@ -112,8 +118,9 @@ text-align: center;
 }
 body { 
   max-width: 1230px; 
-  margin: 0 auto !important; 
+  margin: auto !important; 
   float: none !important; 
+
   background: #f9f9f9;
   font-size: 5px;
  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto', sans-serif ,!important;
@@ -135,6 +142,7 @@ padding-top:
   padding: 3em 0;
   float: left;
   width: 50%;
+
 
 
 }
