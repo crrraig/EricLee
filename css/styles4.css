@@ -15,6 +15,7 @@ margin: 0 auto !important;
 float: none !important; 
 padding-top: 300px;
 }
+
 	iframe{
 		background-repeat: no-repeat;
 		background-position: center;
@@ -34,14 +35,7 @@ text-align: center;
 padding-top: 300px;
 
 }
-.container2 img:hover{
-height: 50px;
-width: 50px;
-background-color: black;
-border-radius: 100%;
 
-
-}
 .container2 img{
 	padding:5px;
 }
