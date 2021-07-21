@@ -2,8 +2,9 @@
 
 img{
  
-  padding-top: 100px;
+  padding-top: px;
 }
+
 
  .row{
   padding-left: ;
@@ -58,10 +59,12 @@ font-weight: 100;
 
 .container:hover .image {
   opacity: 0.3;
+  text-decoration: none;
 }
 
 .container:hover .middle {
   opacity: 1;
+  text-decoration: none
 }
 
 .text {
