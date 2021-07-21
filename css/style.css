@@ -2,7 +2,7 @@
 
 img{
  
-  padding-top: px;
+  padding-top: 100px;
 }
 
 
@@ -14,7 +14,7 @@ font-weight: 100;
  }
 
 body { 
-  max-width: 1200px; 
+  max-width: 900px; 
   margin: auto !important; 
   float: none !important; 
   background: #f9f9f9;
