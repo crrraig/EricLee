@@ -16,6 +16,9 @@ float: none !important;
 padding-top: 300px;
 }
 
+div{
+	text-align: center;
+}
 
 .center {
   display: block;
