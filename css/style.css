@@ -43,7 +43,6 @@ position: center;
 
 }
 
-
 .middle {
   transition: 2.50s ease;
   opacity: 0;
@@ -56,11 +55,19 @@ position: center;
     font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight','Helvetica Neue',  'Roboto', sans-serif;
 font-weight: 100;
 }
-
-.container:hover .image {
-  opacity: 0.3;
-  text-decoration: none;
+img:hover {
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
 }
+
+/* apply the same effect for touch devices */
+@media (hover: none) {
+    img {
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+    }
+}
+
 
 .container:hover .middle {
   opacity: 1;
