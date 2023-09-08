@@ -13,7 +13,7 @@ img{
   max-width: 1440px !important;
   margin: auto;
 
-  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ; font-weight: 100;
 
 }
 }
@@ -29,7 +29,7 @@ body {
   margin: 0 auto !important; 
   float: none !important; 
 
-  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ; font-weight: 100;
 
 }
  }
@@ -38,7 +38,7 @@ p{
 }
 
  p.information{
-    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ; font-weight: 100;
 
 
  }
@@ -116,7 +116,7 @@ p{
 
 
 .description{
-  font-family:'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ; 
+  font-family:'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ; font-weight: 100;
 
 
 
@@ -147,43 +147,43 @@ hr {
 body{max-width: 1440px!important;
   margin:auto;
   padding-top: 250px;
-    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ; font-weight: 100;
 
 
   
 }
 nav-link{
-    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ; font-weight: 100;
 
 }
 a{
-    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ; font-weight: 100;
 
 }
 
 h1{
-  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue',  'Roboto', sans-serif;
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue',  'Roboto', sans-serif; font-weight: 100;
 
 
 }
 
 p{ 
-font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue',  'Roboto', sans-serif;
+font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue',  'Roboto', sans-serif;font-weight: 100;
 
 
 }
 
 h6{
-font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue',  'Roboto', sans-serif;
+font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue',  'Roboto', sans-serif;font-weight: 100;
 
 
 }
 .description{
-  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue',  'Roboto', sans-serif;
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue',  'Roboto', sans-serif;font-weight: 100;
 
 }
 #title{
-  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto',  sans-serif ;font-weight: 100;
 
 }
 
