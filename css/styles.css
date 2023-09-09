@@ -80,7 +80,7 @@ h1{ font-weight: 100;
   font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica, 'Roboto', sans-serif;
 
 }
-h3{ font-weight: 100;
+h3{ font-weight: 100 !important;
     font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica, 'Roboto', sans-serif;
 
 }
