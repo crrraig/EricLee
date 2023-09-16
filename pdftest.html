@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Book Viewer</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        #book-container {
+            width: 80%;
+            height: 80%;
+            display: flex;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .page {
+            flex: 1;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            position: relative;
+        }
+
+        #prev-page-btn,
+        #next-page-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 10px;
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            outline: none;
+            font-size: 18px;
+        }
+
+        #prev-page-btn {
+            left: 10px;
+        }
+
+        #next-page-btn {
+            right: 10px;
+        }
+
+        canvas {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="book-container">
+        <div class="page">
+            <div id="prev-page-btn">&lt; Previous Page</div>
+            <canvas id="pdf-page"></canvas>
+            <div id="next-page-btn">Next Page &gt;</div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
+    <script>
+        const pdfUrl = 'SelectedPortfolioEricLee.pdf'; // Replace with your PDF file URL
+
+        let currentPage = 1;
+        let pdfDoc = null;
+        const scale = 1.5;
+        const canvas = document.getElementById('pdf-page');
+        const prevPageBtn = document.getElementById('prev-page-btn');
+        const nextPageBtn = document.getElementById('next-page-btn');
+
+        const renderPage = (pageNum) => {
+            pdfDoc.getPage(pageNum).then((page) => {
+                const context = canvas.getContext('2d');
+                const viewport = page.getViewport({ scale });
+                canvas.height = viewport.height;
+                canvas.width = viewport.width;
+
+                const renderContext = {
+                    canvasContext: context,
+                    viewport: viewport,
+                };
+
+                page.render(renderContext);
+            });
+        };
+
+        pdfjsLib.getDocument(pdfUrl).promise.then((pdf) => {
+            pdfDoc = pdf;
+            renderPage(currentPage);
+
+            prevPageBtn.addEventListener('click', () => {
+                if (currentPage > 1) {
+                    currentPage--;
+                    renderPage(currentPage);
+                }
+            });
+
+            nextPageBtn.addEventListener('click', () => {
+                if (currentPage < pdf.numPages) {
+                    currentPage++;
+                    renderPage(currentPage);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
